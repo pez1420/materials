@@ -1,0 +1,12 @@
+1、自我介绍
+
+2、基础组件
+
+Spring配置模块包含两个非常重要的Class:
+PropertiesFactoryBean和PropertyPlaceholderConfigurer
+PropertiesFactoryBean支持从多个properties文件读取配置信息
+
+PropertyPlaceholderConfigurer是Spring的资源属性配置器，
+主要用于解析SpringBean中的占位符(placeholder),
+并将从properties文件获取的值注入对应的Spring Bean中。
+
